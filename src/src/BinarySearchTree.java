@@ -10,7 +10,7 @@ package src;
 public class BinarySearchTree<E extends Comparable<E>> extends BaseBinaryTree<E> {
 
     /**
-     * Constructs an emoty binary tree
+     * Constructs an empty binary tree
      */
     public BinarySearchTree() {
         super();

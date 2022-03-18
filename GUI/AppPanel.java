@@ -193,7 +193,7 @@ public class AppPanel extends JPanel implements ActionListener {
         } else if (e.getSource() == removeAll) {
             addressbook.makeEmpty();
             if (addressbook.isEmpty()) {
-                label.setText("<html>Contact Book<br>is cleared :)</html>");
+                label.setText("<html>Mail Book<br>is cleared :)</html>");
             } else {
                 label.setText("<html>Oops :(<br>Something went wrong</html>");
             }

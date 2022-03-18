@@ -30,7 +30,7 @@ public class AppFrame extends JFrame {
      * Displays a new JFrame with defined attributes
      */
     public void launch() {
-        frame.setTitle("Contact Book");
+        frame.setTitle("MailBook");
         frame.setSize(600, 400); // Lenight x Width
         frame.setLayout(null);
         frame.setResizable(false);
